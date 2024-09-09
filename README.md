@@ -1,8 +1,10 @@
-# React + Vite
+# Kit de Herramientas 
+## Herramientas de uso diario
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Grabador de video
+#### Captrador de pantalla (ScreenShot)
+#### Grabador de Audio
+#### Lista de Tareas
+#### Cronometro
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Codigo abierto a modificaciones y si algun usuario quiere aportar, el proyecto es abierto, solo me debe contactar.
