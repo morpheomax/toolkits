@@ -57,7 +57,7 @@ export const Task = () => {
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-4">Lista de Tareas</h1>
       <TaskForm onSubmit={addTask} initialTask={editingTask} />
-      <div className="mt-6 space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
         {tasks
           .sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate))
           .map(task => (

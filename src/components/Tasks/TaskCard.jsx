@@ -17,7 +17,8 @@ export const TaskCard = ({ task, onEdit, onDelete, onToggleComplete }) => {
   };
 
   return (
-    <div className={`p-4 mb-4 bg-white rounded-lg shadow-lg ${getStatusColor()} border-2`}>
+    
+    <div className={`p-4 mb-4 bg-white rounded-lg shadow-lg ${getStatusColor()} border-2 ` }>
       <h3 className="text-lg font-semibold">{title}</h3>
       <p className="text-gray-600">Vence: {new Date(dueDate).toLocaleDateString()} {new Date(dueDate).toLocaleTimeString()}</p>
       <p className="text-gray-600">Tiempo restante: {timeRemaining}</p>
@@ -30,5 +31,6 @@ export const TaskCard = ({ task, onEdit, onDelete, onToggleComplete }) => {
         <Button onClick={() => onDelete(id)} color="failure">Delete</Button>
       </div>
     </div>
+  
   );
 };
